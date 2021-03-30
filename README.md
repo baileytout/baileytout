@@ -1,16 +1,16 @@
-### Hi there 👋
 
-<!--
-**baileytout/baileytout** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+{% extends "learning_logs/base.html" %}
+{% block header %}
+<div class='jumbotron'>
+	<h1>跟随学习的脚步</h1>
+</div>
+{% endblock header %}
+{% block content %}
+<h2>
+	
+	帮助我们保留学习轨迹，督促每天的学习
+</h2>
+<h2>
+	这里记录的是张宸楠小朋友的学习轨迹
+</h2>
+{% endblock content %}
